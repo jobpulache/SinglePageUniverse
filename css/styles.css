@@ -15,19 +15,19 @@ body {
 }
 
 .content-sideBar .img-sidebar {
-    margin-left: 3rem;
+    margin: 2.2rem 0 0 3rem;
 }
 .content-sideBar .sidebar-image{
     height: 35rem;
 }
 
 .content-sideBar .icons-sideBar {
-    top: 1rem;
+    top: 4rem;
     left: 5.5rem;
 }
 
 .content-sideBar .icons-sideBar img {
-    width: 2.5rem;
+    width: 2.3rem;
     margin-top: 1.4rem;
 }
 
