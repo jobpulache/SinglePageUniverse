@@ -14,15 +14,14 @@ body {
     position: absolute;
 }
 
-.content-sideBar .img-sidebar {
-    margin: 2.2rem 0 0 3rem;
-}
-.content-sideBar .sidebar-image{
+.content-sideBar .sidebar-image {
     height: 35rem;
+    margin: 18rem 0 0 3rem;
+
 }
 
 .content-sideBar .icons-sideBar {
-    top: 4rem;
+    top: 20rem;
     left: 5.5rem;
 }
 
@@ -42,6 +41,43 @@ body {
     align-items: center;
     margin-top: 1rem;
 }
-.content-sideBar .icons-sideBar .planet .planet-img{
+
+.content-sideBar .icons-sideBar .planet .planet-img {
     margin-top: 0.2rem;
+}
+
+/*Section explore*/
+.container-section-explore .content-section-explore {
+    margin-top: -50rem;
+    margin-left: 8rem;
+}
+
+.container-system-solar .content-system-solar .systemSolar {
+    display: flex;
+    margin-top: -74rem;
+    margin-left: 2.4rem;
+    justify-content: center;
+}
+.container-system-solar .content-system-solar .systemSolar .orbit{
+    margin-top: -1rem;
+}
+
+.container-system-solar .content-system-solar .systemSolar .sun {
+    margin-left: -62rem;
+    margin-top: -10rem;
+}
+.container-system-solar .content-system-solar .systemSolar .planets-sec{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-left: -48rem;
+    margin-top: -11rem;
+}
+.container-system-solar .content-system-solar .systemSolar .light-blur{
+    width: 2rem;
+    margin-top: -3rem;
+}
+
+.container-system-solar .content-system-solar .systemSolar .planets-sec img{
+    margin-right: 4rem;
 }
