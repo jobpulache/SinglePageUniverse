@@ -1,3 +1,8 @@
+:root {
+    --white: #fff;
+
+}
+
 body {
     background-image: url(../Img/Background.png);
     margin: 0;
@@ -58,7 +63,8 @@ body {
     margin-left: 2.4rem;
     justify-content: center;
 }
-.container-system-solar .content-system-solar .systemSolar .orbit{
+
+.container-system-solar .content-system-solar .systemSolar .orbit {
     margin-top: -1rem;
 }
 
@@ -66,18 +72,43 @@ body {
     margin-left: -62rem;
     margin-top: -10rem;
 }
-.container-system-solar .content-system-solar .systemSolar .planets-sec{
+
+.container-system-solar .content-system-solar .systemSolar .planets-sec {
     display: flex;
     align-items: start;
     justify-content: center;
     margin-left: -48rem;
     margin-top: -11rem;
 }
-.container-system-solar .content-system-solar .systemSolar .light-blur{
+
+.container-system-solar .content-system-solar .systemSolar .light-blur {
     width: 2rem;
     margin-top: -3rem;
 }
 
-.container-system-solar .content-system-solar .systemSolar .planets-sec img{
+.container-system-solar .content-system-solar .systemSolar .planets-sec img {
     margin-right: 4rem;
+}
+.content-filter{
+    display: flex;
+
+}
+.content-filter .all-astros, .most-viewed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #383636;
+    width: 8rem;
+    height: 2.4rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: -72rem;
+    margin-left: 5rem;
+}
+
+.content-filter .all-astros p,
+i, .most-viewed p, i {
+    font-weight: 900;
+    color: var(--white);
+    padding: 0.2rem;
 }
