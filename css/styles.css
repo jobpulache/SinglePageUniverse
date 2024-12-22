@@ -133,7 +133,7 @@ i {
     flex-direction: column;
     align-items: center;
     row-gap: 2rem;
-    
+
 }
 
 .container-cards .content-cards .card-earth .content-card-earth {
@@ -272,16 +272,76 @@ i {
     gap: 1.2rem;
 }
 
-.container-cards .content-cards .card-earth .button-sun .button-explore-sun h4{
+.container-cards .content-cards .card-earth .button-sun .button-explore-sun h4 {
     font-size: 1.3rem;
     color: var(--white);
 }
 
-.container-cards .content-cards .card-earth .button-sun .button-explore-sun i{
+.container-cards .content-cards .card-earth .button-sun .button-explore-sun i {
     font-size: 3rem;
 }
 
-.container-cards .content-cards  .group-icons-sun{
+.container-cards .content-cards .group-icons-sun {
     font-size: 3rem;
     margin-left: 3rem;
+}
+.container-cards .content-cards .card-earth .content-card-earth .marts {
+    width: 70%;
+}
+
+.container-cards .content-cards .card-earth .content-card-earth .marts h2 {
+    background: linear-gradient(to top, #F67C36, #C54016);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--fontMain);
+    font-size: 2.5rem;
+    margin-top: -0.5rem;
+}
+
+.container-cards .content-cards .card-earth .content-card-earth .marts span {
+    background: linear-gradient(to right, #F67C36, #C54016);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+.container-cards .content-cards .card-earth .content-card-earth .marts span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #F67C36, #C54016);
+}
+
+.container-cards .content-cards .card-earth .content-card-earth .marts img {
+    margin-top: -16rem;
+    margin-left: 26rem;
+}
+
+.container-cards .content-cards  .button-marts .button-explore-marts {
+    background: linear-gradient(to right, #F67C36, #C54016);
+    display: flex;
+    align-items: center;
+    width: 110%;
+    border-radius: 5rem;
+    height: 48px;
+    gap: 1.2rem;
+}
+.container-cards .content-cards  .button-marts .button-explore-marts h4{
+    font-size: 1.3rem;
+    color: var(--white);
+}
+.container-cards .content-cards  .button-marts .button-explore-marts  i{
+    font-size: 3rem;
+}
+.container-cards .content-cards   .group-icons-mart {
+    font-size: 3rem;
+    margin-left: 4rem;
+    cursor: pointer;
 }
