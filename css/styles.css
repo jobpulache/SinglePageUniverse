@@ -225,7 +225,7 @@ i {
 }
 
 .container-cards .content-cards .card-earth .content-card-earth .sun {
-    width: 80%;
+    width: 70%;
     line-height: 1.7rem;
 }
 
@@ -259,7 +259,7 @@ i {
 
 .container-cards .content-cards .card-earth .content-card-earth .sun img {
     margin-top: -20rem;
-    margin-left: 23rem
+    margin-left: 21rem
 }
 
 .container-cards .content-cards .card-earth .button-sun .button-explore-sun {
@@ -285,8 +285,9 @@ i {
     font-size: 3rem;
     margin-left: 3rem;
 }
+
 .container-cards .content-cards .card-earth .content-card-earth .marts {
-    width: 70%;
+    width: 80%;
 }
 
 .container-cards .content-cards .card-earth .content-card-earth .marts h2 {
@@ -324,7 +325,7 @@ i {
     margin-left: 26rem;
 }
 
-.container-cards .content-cards  .button-marts .button-explore-marts {
+.container-cards .content-cards .button-marts .button-explore-marts {
     background: linear-gradient(to right, #F67C36, #C54016);
     display: flex;
     align-items: center;
@@ -333,15 +334,84 @@ i {
     height: 48px;
     gap: 1.2rem;
 }
-.container-cards .content-cards  .button-marts .button-explore-marts h4{
+
+.container-cards .content-cards .button-marts .button-explore-marts h4 {
     font-size: 1.3rem;
     color: var(--white);
 }
-.container-cards .content-cards  .button-marts .button-explore-marts  i{
+
+.container-cards .content-cards .button-marts .button-explore-marts i {
     font-size: 3rem;
 }
-.container-cards .content-cards   .group-icons-mart {
+
+.container-cards .content-cards .group-icons-mart {
     font-size: 3rem;
     margin-left: 4rem;
     cursor: pointer;
+}
+
+.container-cards .content-cards .content-card-earth .saturn {
+    width: 63%;
+}
+
+.container-cards .content-cards .content-card-earth .saturn h2 {
+    background: linear-gradient(to top, #F6CC36, #E47813);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-cards .content-cards .content-card-earth .saturn span {
+    background: linear-gradient(to top, #F6CC36, #E47813);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+.container-cards .content-cards .content-card-earth .saturn span::after {
+    content: '';
+    position: absolute;
+    margin-top: -2px;
+    margin-left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(#F6CC36, #E47813);
+
+}
+
+.container-cards .content-cards .content-card-earth .saturn img {
+    margin-top: -16rem;
+    margin-left: 21rem;
+}
+
+.container-cards .content-cards .button-saturn .button-explore-saturn {
+    background: linear-gradient(to right, #F6CC36, #E47813);
+    display: flex;
+    align-items: center;
+    width: 110%;
+    border-radius: 5rem;
+    height: 48px;
+    gap: 1.2rem;
+}
+
+.container-cards .content-cards .button-saturn .button-explore-saturn h4 {
+    color: var(--white);
+    font-size: 1.3rem;
+}
+
+.container-cards .content-cards h3 {
+    line-height: 24px;
+    letter-spacing: 0.7px;
+}
+
+.container-cards .content-cards .button-saturn .button-explore-saturn i {
+    font-size: 3rem;
+}
+
+.container-cards .content-cards .group-icons-saturn {
+    font-size: 3rem;
+    margin-left: 3rem;
 }
