@@ -129,20 +129,27 @@ i {
 /*Cards*/
 .container-cards .content-cards {
     margin: -67rem 0 0 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    
 }
 
 .container-cards .content-cards .card-earth .content-card-earth {
     margin-top: -16rem;
     margin-left: 1.3rem;
 }
-.container-cards .content-cards .card-earth .content-card-earth .eart{
+
+.container-cards .content-cards .card-earth .content-card-earth .eart {
     display: flex;
     flex-direction: column;
-    width: 75%;
-    line-height: 1.5rem;
+    width: 70%;
+    line-height: 1.6rem;
 }
-.container-cards .content-cards .card-earth .content-card-earth .eart img{
-    margin:  -5rem 0 0 25rem;
+
+.container-cards .content-cards .card-earth .content-card-earth .eart img {
+    margin: -5rem 0 0 25rem;
 }
 
 .container-cards .content-cards .card-earth .content-card-earth h2 {
@@ -155,13 +162,27 @@ i {
     font-size: 2.5rem;
     margin-top: -0.5rem;
 }
-.container-cards .content-cards .card-earth .content-card-earth span{
+
+.container-cards .content-cards .card-earth .content-card-earth span {
     background: linear-gradient(to top, #2AE5FF, #0075FF);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
+    position: relative;
+    cursor: pointer;
 }
+
+.container-cards .content-cards .card-earth .content-card-earth span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #2AE5FF, #0075FF);
+}
+
 .container-cards .content-cards .card-earth .content-card-earth h3 {
     color: var(--white);
     margin-top: -1.3rem;
@@ -179,12 +200,12 @@ i {
     background: linear-gradient(to top, #2AE5FF, #0075FF);
     width: 45%;
     border-radius: 5rem;
-    height: 56px;
+    height: 48px;
     gap: 1.2rem;
 }
 
 .container-cards .content-cards .card-earth .content-card-earth .button-explore h4 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--white);
 }
 
@@ -195,10 +216,72 @@ i {
 
 .container-cards .content-cards .card-earth .content-card-earth .group-icons {
     font-size: 3rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
 .container-cards .content-cards .card-earth .content-card-earth .group-icons i {
     font-weight: 100;
     cursor: pointer;
+}
+
+.container-cards .content-cards .card-earth .content-card-earth .sun {
+    width: 80%;
+    line-height: 1.7rem;
+}
+
+.container-cards .content-cards .card-earth .content-card-earth .sun h2 {
+    background: linear-gradient(to top, #F6E336, #E48413);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-cards .content-cards .card-earth .content-card-earth .sun span {
+    background: linear-gradient(to top, #F6E336, #E48413);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.container-cards .content-cards .card-earth .content-card-earth .sun span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #F6E336, #E48413);
+}
+
+.container-cards .content-cards .card-earth .content-card-earth .sun img {
+    margin-top: -20rem;
+    margin-left: 23rem
+}
+
+.container-cards .content-cards .card-earth .button-sun .button-explore-sun {
+    background: linear-gradient(to top, #F6E336, #E48413);
+    display: flex;
+    align-items: center;
+    width: 110%;
+    border-radius: 5rem;
+    height: 48px;
+    gap: 1.2rem;
+}
+
+.container-cards .content-cards .card-earth .button-sun .button-explore-sun h4{
+    font-size: 1.3rem;
+    color: var(--white);
+}
+
+.container-cards .content-cards .card-earth .button-sun .button-explore-sun i{
+    font-size: 3rem;
+}
+
+.container-cards .content-cards  .group-icons-sun{
+    font-size: 3rem;
+    margin-left: 3rem;
 }
