@@ -1,6 +1,6 @@
 :root {
     --white: #fff;
-
+    --fontMain: "Abril Fatface", serif;
 }
 
 body {
@@ -15,8 +15,16 @@ body {
     position: relative;
 }
 
+a {
+    text-decoration: none;
+}
+
 .p-absolute {
     position: absolute;
+}
+
+.t-uppercase {
+    text-transform: uppercase;
 }
 
 .content-sideBar .sidebar-image {
@@ -89,11 +97,14 @@ body {
 .container-system-solar .content-system-solar .systemSolar .planets-sec img {
     margin-right: 4rem;
 }
-.content-filter{
+
+.content-filter {
     display: flex;
 
 }
-.content-filter .all-astros, .most-viewed {
+
+.content-filter .all-astros,
+.most-viewed {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,8 +118,87 @@ body {
 }
 
 .content-filter .all-astros p,
-i, .most-viewed p, i {
+i,
+.most-viewed p,
+i {
     font-weight: 900;
     color: var(--white);
     padding: 0.2rem;
+}
+
+/*Cards*/
+.container-cards .content-cards {
+    margin: -67rem 0 0 6rem;
+}
+
+.container-cards .content-cards .card-earth .content-card-earth {
+    margin-top: -16rem;
+    margin-left: 1.3rem;
+}
+.container-cards .content-cards .card-earth .content-card-earth .eart{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    line-height: 1.5rem;
+}
+.container-cards .content-cards .card-earth .content-card-earth .eart img{
+    margin:  -5rem 0 0 25rem;
+}
+
+.container-cards .content-cards .card-earth .content-card-earth h2 {
+    background: linear-gradient(to top, #2AE5FF, #0075FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--fontMain);
+    font-size: 2.5rem;
+    margin-top: -0.5rem;
+}
+.container-cards .content-cards .card-earth .content-card-earth span{
+    background: linear-gradient(to top, #2AE5FF, #0075FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.container-cards .content-cards .card-earth .content-card-earth h3 {
+    color: var(--white);
+    margin-top: -1.3rem;
+}
+
+.content-cards .card-earth .content-card-earth .explore-icons {
+    display: flex;
+    align-items: center;
+}
+
+.container-cards .content-cards .card-earth .content-card-earth .button-explore,
+.button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to top, #2AE5FF, #0075FF);
+    width: 45%;
+    border-radius: 5rem;
+    height: 56px;
+    gap: 1.2rem;
+}
+
+.container-cards .content-cards .card-earth .content-card-earth .button-explore h4 {
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+
+.container-cards .content-cards .card-earth .content-card-earth .button-explore i {
+    font-size: 3rem;
+}
+
+.container-cards .content-cards .card-earth .content-card-earth .group-icons {
+    font-size: 3rem;
+    margin-left: 3rem;
+}
+
+.container-cards .content-cards .card-earth .content-card-earth .group-icons i {
+    font-weight: 100;
+    cursor: pointer;
 }
